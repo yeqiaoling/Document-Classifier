@@ -1,15 +1,17 @@
 # Text Document Classifier
 
-This project is to build a text document classifier, including data generation, feature engineering, exploratory data analysis, model training and evaluation.
+This project is to build a text document classifier to categorize emails into 20 classes, using raw text files.
+[Here is the report.](https://github.com/yeqiaoling/Document-Classifier/blob/master/05.%20Roport/text_classifier_report.pdf)
 
 ## Getting Started
 
-Document classification is implemented in Python, and data are not included due to privacy. There are 5 main steps in the repository:
-* Data Generation
-* Exploratory Data Analysis
-* Feature Engineering
-* Model Training
-* Report
+The document classifier is implemented in Python and R (for data generation). There are 4 main steps in building the text classifier:
+* [Data Generation](https://github.com/yeqiaoling/Document-Classifier/tree/master/01.%20Data%20Generation)
+* [Exploratory Data Analysis](https://github.com/yeqiaoling/Document-Classifier/tree/master/02.%20Exploratory%20Data%20Analysis)
+* [Feature Engineering](https://github.com/yeqiaoling/Document-Classifier/tree/master/03.%20Feature%20Engineering)
+* [Model Training and Testing](https://github.com/yeqiaoling/Document-Classifier/tree/master/04.%20Model%20Training)
+
+Data is not included in the repository due to privacy. 
 
 ## Reference
 * [News-classifer](https://github.com/miguelfzafra/Latest-News-Classifier)
