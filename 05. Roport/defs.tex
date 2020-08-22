@@ -1,0 +1,163 @@
+\newcommand\Lc{\mathscr L}
+\newcommand\lchol{\Lc_{\text{chol}}}
+\newcommand\Sigh{\widehat \Sigma}
+
+%%%%
+
+\newcommand{\f}{\frac}
+\newcommand{\p}{\partial}
+
+% Number systems %
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\R}{\mathbb{R}}
+%\newcommand{\C}{\mathbb{C}}
+\newcommand{\F}{\mathbb{F}}
+\newcommand{\BH}{\matbb{H}}
+\newcommand{\BP}{\mathbb{P}}
+\newcommand{\B}{\calB}
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\T}{\mathbb{T}}
+
+\let\temp\P
+\let\P\BP
+%% Probability %%
+\newcommand\independent{\protect\mathpalette{\protect\independenT}{\perp}}
+\def\independenT#1#2{\mathrel{\rlap{$#1#2$}\mkern2mu{#1#2}}}
+
+% % Analysis shortcuts % %
+\newcommand{\eps}{\varepsilon}
+\newcommand{\el}[1]{\ell^{#1}(\mathbb{N})} % little l^p spaces
+\newcommand{\elinf}{\ell^{\infty}(\mathbb{N})}
+\newcommand{\pnorm}[2]{\left\|#1\right\|_{#2}}
+\newcommand{\norm}[1]{\left\|#1\right\|}
+\newcommand{\ip}[2]{\left\langle #1, #2 \right\rangle}
+\newcommand{\ceil}[1]{\lceil #1 \rceil}
+\newcommand{\floor}[1]{\lfloor #1 \rfloor}
+\newcommand{\dd}[2]{\frac{\mathrm{d} #1}{\mathrm{d} #2}}
+\newcommand{\ddyddx}[2]{\frac{\mathrm{d}^2 #1}{\mathrm{d} {#2}^2}}
+\newcommand{\ddx}[1]{\frac{\mathrm{d}}{\mathrm{d} #1}}
+\newcommand{\ddddx}[1]{\frac{\mathrm{d}^2}{\mathrm{d} {#1}^2}}
+\newcommand{\grad}{\operatorname{grad}}
+\newcommand{\ppx}[1]{\frac{\partial}{\partial #1}} 
+\newcommand{\ppxx}[1]{\frac{\partial^2}{\partial #1^2}}
+\newcommand{\pp}[2]{\frac{\partial #1}{\partial #2}}
+%\newcommand{\rm}{\mathrm}
+\newcommand{\ind}{{\mathbf 1}}
+
+% Limits, sums, set theory %
+\newcommand{\limity}[1]{\lim_{#1 \to \infty}}
+\newcommand{\limsupity}[1]{\limsup_{#1 \to \infty}}
+\newcommand{\liminfty}[1]{\liminf_{#1\to \infty}}
+\newcommand{\summ}[2]{\sum_{#1 = 1}^{#2}}
+\newcommand{\summm}[3]{\sum_{#1 = #2}^{#3}}
+\newcommand{\prodd}[2]{\prod_{#1 = 1}^{#2}}
+\newcommand{\suminf}[1]{\sum_{#1 = 1}^\infty}
+\newcommand{\summinf}[2]{\sum_{#1 = #2}^\infty}
+\newcommand{\cupinf}{\bigcup_{n=1}^\infty}
+\newcommand{\capinf}{\bigcap_{n=1}^\infty}
+\newcommand{\cu}{\cup_{n=1}^\infty}
+\newcommand{\ci}{\cup_{n=1}^\infty}
+\newcommand{\directlim}{\varinjlim} % inverse limit: lim with <- under
+\newcommand{\inverselim}{\varprojlim} % direct limit: lim with -> under
+
+% Differential geometry
+\newcommand{\sff}[2]{\left\langle \mathrm{d} N\left(#1\right), #2 \right\rangle} % second fundamental form
+
+% PDE %
+\newcommand{\tf}{\mathcal{D}(\Omega)}
+\newcommand{\db}{\mathcal{D}'(\Omega)}
+\newcommand{\tfr}{\mathcal{D}(\mathbb{R}^n)}
+\newcommand{\dbr}{\mathcal{D}'(\mathbb{R}^n)}
+\newcommand{\smooth}{C^\infty(\Omega)}
+\newcommand{\sgn}{\operatorname{sgn}}
+\newcommand{\lloc}{L_{\text{loc}}^1}
+\newcommand{\supp}{\operatorname{supp}}
+
+% Algebra %
+\newcommand{\im}{\operatorname{im}}
+\newcommand{\diag}{\operatorname{diag}}
+\newcommand{\rvecc}[2]{\left( \begin{array}{cc} {#1} & {#2} \end{array} \right)}
+\newcommand{\rvec}[3]{\left( \begin{array}{ccc} {#1} & {#2} & {#3} 
+	\end{array} \right)}
+\newcommand{\cvecc}[2]{\left( \begin{array}{c} {#1} \\ {#2}
+	\end{array} \right)}
+\newcommand{\cvec}[3]{\left( \begin{array}{c} {#1} \\ {#2} \\ {#3}
+	\end{array} \right)}
+\newcommand{\matrixx}[4]{\left( \begin{array}{cc} {#1} & {#2} \\ {#3} & {#4}
+	\end{array} \right)}
+\newcommand{\matrixxx}[9]{\left( \begin{array}{ccc} {#1} & {#2} & {#3} \\ {#4} & {#5} & {#6} \\ {#7} & {#8} & {#9}
+	\end{array} \right)}
+\newcommand{\trace}{{\rm trace}}
+\newcommand{\innerprod}{\langle \cdot, \cdot \rangle}
+% special groups
+\newcommand{\GL}{\operatorname{GL}}
+\newcommand{\SL}{\operatorname{SL}}
+\newcommand{\SO}{\operatorname{SO}}
+\newcommand{\stab}{\operatorname{Stab}}
+\newcommand{\orb}{\operatorname{Orb}}
+\newcommand{\lcm}{\operatorname{lcm}}
+\newcommand{\gen}[1]{\langle #1 \rangle}
+\newcommand{\nil}{\operatorname{nil}} % nil radical of a ring $R$
+%\newcommand{\norm}{{\rm norm}}
+
+
+% Caligraphic alphabet %
+\newcommand{\calA}{\mathcal{A}}
+\newcommand{\cA}{\mathcal{A}}
+\newcommand{\calB}{\mathcal{B}}
+\newcommand{\calC}{\mathcal{C}}
+\newcommand{\calD}{\mathcal{D}}
+\newcommand{\calE}{\mathcal{E}}
+\newcommand{\calF}{\mathcal{F}}
+\newcommand{\cF}{\mathcal{F}}
+\newcommand{\calG}{\mathcal{G}}
+\newcommand{\calH}{\mathcal{H}}
+\newcommand{\calI}{\mathcal{I}}
+\newcommand{\calJ}{\mathcal{J}}
+\newcommand{\calK}{\mathcal{K}}
+\newcommand{\calL}{\mathcal{L}}
+\newcommand{\calM}{\mathcal{M}}
+\newcommand{\calN}{\mathcal{N}}
+\newcommand{\calO}{\mathcal{O}}
+\newcommand{\calP}{\mathcal{P}}
+\newcommand{\calQ}{\mathcal{Q}}
+\newcommand{\calR}{\mathcal{R}}
+\newcommand{\calS}{\mathcal{S}}
+\newcommand{\calT}{\mathcal{T}}
+\newcommand{\calU}{\mathcal{U}}
+\newcommand{\calV}{\mathcal{V}}
+\newcommand{\calW}{\mathcal{W}}
+\newcommand{\calX}{\mathcal{X}}
+\newcommand{\calY}{\mathcal{Y}}
+\newcommand{\calZ}{\mathcal{Z}}
+
+\usepackage{array}
+\newcolumntype{H}{>{\setbox0=\hbox\bgroup}c<{\egroup}@{}} % hide a colum
+
+% def, theorem etc
+\newtheorem{theorem}{Theorem}
+\newtheorem{definition}{Definition}
+\newtheorem{lemma}{Lemma}
+\newtheorem{prop}{Proposition}
+\newtheorem{remark}{Remark}
+
+\DeclareMathOperator{\Var}{Var}
+\DeclareMathOperator{\var}{Var}
+\DeclareMathOperator{\Poi}{Poi}
+\DeclareMathOperator{\Cov}{Cov}
+\DeclareMathOperator{\cov}{Cov}
+\DeclareMathOperator{\tr}{tr}
+\DeclareMathOperator{\Exp}{Exp}
+\DeclareMathOperator{\Geom}{Geom}
+\DeclareMathOperator{\Cay}{Cay}
+\DeclareMathOperator{\carr}{carrier}
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator{\ex}{\mathbb E}
+\DeclareMathOperator{\prox}{\mathbf{prox}}
+
+% matlab
+\usepackage{xspace} 
+\newcommand{\MATLAB}{\textsc{Matlab}\xspace}
+

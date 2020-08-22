@@ -1,0 +1,11 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Methodology}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Initial Data Set Generation}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Exploratory Data Analysis}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{Feature Engineering}{section.2}% 5
+\BOOKMARK [3][-]{subsubsection.2.3.1}{Data Cleaning}{subsection.2.3}% 6
+\BOOKMARK [3][-]{subsubsection.2.3.2}{Data Normalization: Stemming and Lemmatization}{subsection.2.3}% 7
+\BOOKMARK [3][-]{subsubsection.2.3.3}{Data Representation}{subsection.2.3}% 8
+\BOOKMARK [2][-]{subsection.2.4}{Predictive Model}{section.2}% 9
+\BOOKMARK [1][-]{section.3}{Numerical Results}{}% 10
+\BOOKMARK [1][-]{section.4}{Conclusion}{}% 11
